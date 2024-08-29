@@ -5,17 +5,34 @@
 
 .card{
     margin-top: 80px;
+  
 }
 
-#app{
+body{
 background: rgb(0,212,255);
 background: linear-gradient(0deg, rgba(0,212,255,1) 18%, rgba(0,0,0,1) 100%);
 top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;  
+  background-repeat: no-repeat;
+  /* background-color:rgb(0,212,255) ; */
 }
-
+/* .home_content{
+  height:600px;
+} */
+.home_content ,.h1{
+color:white;
+text-transform: capitalize;
+text-align: center;
+text-shadow: #D6D6E7;
+}
+.list-content{
+  text-align: left;
+  color: white;
+  padding: 12px;
+  margin-top: 30px;
+}
 
 .nav-link{
     font-weight: 400;
