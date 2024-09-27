@@ -116,7 +116,7 @@ export default {
                 const newStudent = { ...this.model.student }; // Create a copy of the student object
 
                 // Retrieve the existing students from the database
-                axios.get('http://localhost:3000/student')
+                axios.get('http://localhost:3001/student')
                     .then(response => {
                         this.students = response.data; // Store the retrieved students
 
@@ -135,7 +135,7 @@ export default {
                             // Assign new ID to the student
                             newStudent.id = newId.toString(); // Convert ID to string
 
-                            axios.post('http://localhost:3000/student', newStudent)
+                            axios.post('http://localhost:3001/student', newStudent)
                                 .then(response => {
                                     console.log(response.data);
                                     alert('Student saved successfully!');
@@ -167,7 +167,7 @@ export default {
         },
 
         deleteStudent(id) {
-            axios.delete(`http://localhost:3000/student/${id}`)
+            axios.delete(`http://localhost:3001/student/${id}`)
                 .then(response => {
                     console.log(response.data);
                     alert('Student deleted successfully!');
@@ -181,7 +181,7 @@ export default {
                     }
 
                     // Update the students array in the database
-                    axios.put('http://localhost:3000/student', this.students)
+                    axios.put('http://localhost:3001/student', this.students)
                         .then(response => {
                             console.log(response.data);
                         })

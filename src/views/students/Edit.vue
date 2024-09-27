@@ -62,7 +62,7 @@ export default {
     },
     methods: {
         fetchStudentData(studentId) {
-            axios.get(`http://localhost:3000/student/${studentId}`)
+            axios.get(`http://localhost:3001/student/${studentId}`)
                 .then(response => {
                     console.log('Response from server:', response.data);
                     // Assuming response.data contains the student data
@@ -124,7 +124,7 @@ export default {
 
         updateStudent() {
     // Assuming you have some code to update the student data here
-    axios.put(`http://localhost:3000/student/${this.editedStudent.id}`, this.editedStudent)
+    axios.put(`http://localhost:3001/student/${this.editedStudent.id}`, this.editedStudent)
         .then(response => {
             console.log('Response from server:', response.data);
             alert('Student data updated successfully!');

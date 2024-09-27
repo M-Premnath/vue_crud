@@ -67,7 +67,7 @@
     },
     methods: {
       fetchStudents() {
-        fetch('http://localhost:3000/student')
+        fetch('http://localhost:3001/student')
          .then(res => res.json())
          .then(data => {
             this.students = data;
@@ -77,7 +77,7 @@
       },
       async deleteStudent(id) {
         try {
-          const response = await fetch(`http://localhost:3000/student/${id}`, {
+          const response = await fetch(`http://localhost:3001/student/${id}`, {
             method: 'DELETE'
           });
           if (response.ok) {

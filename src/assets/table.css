@@ -6,12 +6,15 @@
 .table_card{
     /* background-color: aliceblue; */
         margin-bottom: 20px;
-        height:95vh;
+        height:auto;
 }
 .Table-container{
+    position: absolute;
+    max-height: max-content;
+    /* background-color: aliceblue; */
     margin-left: 15%;
     width:70%;
-    height:100vh;
+    height:auto;
 }
 .table table{
     border-color: black;
