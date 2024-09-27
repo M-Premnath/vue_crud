@@ -10,58 +10,16 @@
     {
       "id": "2",
       "name": "Nithish",
-      "course": "EVS",
+      "course": "English",
       "email": "Nithishkumar@gmail.com",
       "phone": "8989373832"
     },
     {
-      "id": "4",
-      "name": "Kumar",
-      "course": "Bca",
-      "email": "kumar@gmail.com",
-      "phone": "9098111234"
-    },
-    {
-      "id": "5",
-      "name": "Vishal",
-      "course": "ECE",
-      "email": "vishal@gmail.com",
-      "phone": "9911882920"
-    },
-    {
-      "id": "6",
-      "name": "Simbu",
-      "course": "Chemistry",
-      "email": "str@gmail.com",
-      "phone": "8892788299"
-    },
-    {
-      "id": "7",
-      "name": "Prasanth",
-      "course": "MCA",
-      "email": "Prasanth@gmail.com",
-      "phone": "7888954215"
-    },
-    {
-      "id": "8",
-      "name": "Bharad",
-      "course": "BCA",
-      "email": "Bharad_dgl@gmail.com",
-      "phone": "9922889930"
-    },
-    {
-      "id": "9",
+      "id": "3",
       "name": "santhosh",
       "course": "CSE",
       "email": "santhoshkumar@gmail.com",
       "phone": "9728482910"
-    },
-    {
-      "id": "11",
-      "name": "faizal",
-      "course": "MCA",
-      "email": "faizal1234@gmail.com",
-      "phone": "9982827777"
     }
   ]
 }

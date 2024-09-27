@@ -5,17 +5,34 @@
 
 .card{
     margin-top: 80px;
+  
 }
 
-#app{
+body{
 background: rgb(0,212,255);
 background: linear-gradient(0deg, rgba(0,212,255,1) 18%, rgba(0,0,0,1) 100%);
 top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 700px;  
+  background-repeat: no-repeat;
+  /* background-color:rgb(0,212,255) ; */
 }
-
+/* .home_content{
+  height:600px;
+} */
+.home_content ,.h1{
+color:white;
+text-transform: capitalize;
+text-align: center;
+text-shadow: #D6D6E7;
+}
+.list-content{
+  text-align: left;
+  color: white;
+  padding: 12px;
+  margin-top: 30px;
+}
 
 .nav-link{
     font-weight: 400;
@@ -118,4 +135,37 @@ top: 0;
 .btn_btn-primary:active {
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
+}
+
+.list-content{
+  position: relative;
+  top:30%;
+  left: 20%;
+}
+.list-content p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: 300;
+  text-align: center;
+  margin-right: 35%;
+}
+.list-content a{
+  text-decoration: none;
+  color: #000000;
+  background-color:  rgba(0,212,255,1);
+  padding: 5px 7px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+}
+.list-content a:hover{
+  color: darkblue;
+  border: 2px solid #FCFCFD;
+
+}
+.list-content img{
+  width: 40%;
+  height: -100%;
+  left: 10%;
+  position: absolute;
+  border-radius: 5%;
 }
