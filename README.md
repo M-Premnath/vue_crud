@@ -27,3 +27,13 @@ npm run dev
 ```sh
 npm run build
 ```
+### Samples
+## Home Page
+![vue crud - home](https://github.com/user-attachments/assets/d3677815-4bfe-4863-995a-3b54e55f13f7)
+
+## Create Page
+![vue crud - create](https://github.com/user-attachments/assets/ca11b600-6bfe-44bd-afb5-8c68d9f9e9c6)
+
+## Student page
+![vue crud - students](https://github.com/user-attachments/assets/d87aa3d6-d664-48c1-b17f-06ae3e523eca)
+
